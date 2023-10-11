@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input onkeyup="firstNameValidator()" id="firstName" placeholder="Enter your first name" required pattern="^[A-Za-z]{3,15}$">
+        <br>
+        <br>
+        <span id="firstNameRes"></span>
+        <br>
+        <input onkeyup="lastnameValidator()" id="lastname" placeholder="Enter your last name" required pattern="^[A-Za-z]{3,25}$">
+        <br>
+        <br>
+        <span id="lastnameRes"></span>
+        <input id="username" placeholder="Enter desired username" required pattern="^[a-zA-Z0-9_]{3,32}">
+        <br>
+        <br>
+        <input id="email" placeholder="Enter desired email" required pattern="^[\w.-]+@[a-zA-Z_-]+?(?:\.[a-zA-Z]{2,6})+$">
+        <br>
+        <br>
+        <input id="password" placeholder="Enter desired password" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,16}$">
+        <button id="submit">submit</button>
+        <button id="login"> login</button>
+    </form>
+
+    <script type="text/javascript" src="./registration.js"></script>
+</body>
+</body>
+</html>
