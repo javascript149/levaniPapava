@@ -1,0 +1,15 @@
+
+.main_container {
+    width: 100%;
+    margin: auto;
+    
+  }
+  
+  .img_class {
+    margin-left: 40%;
+  }
+  
+  .small-image {
+    max-width: 30%;
+    
+  }
