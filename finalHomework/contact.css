@@ -1,0 +1,218 @@
+main {
+  max-width: 1920px;
+  width: 100%;
+  margin: auto;
+  /* border: 3px solid red; */
+}
+
+/* header */
+header {
+  background-color: #d5906e;
+  padding: 37px 240px 37px 240px;
+  position: sticky;
+  max-width: inherit;
+  width: inherit;
+   top: 0;
+  z-index: 1; 
+  
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  /* border: 3px solid red; */
+}
+
+.first_ul {
+  display: flex;
+  gap: 60px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+.active {
+  color: #aa4919;
+}
+
+.no_active {
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
+
+
+
+
+
+.slider{
+  border: solid 2px red;
+  
+
+}
+
+.section_photo {
+  max-width: 100%;
+  height: 600px;
+  width: 100%;
+  object-fit: cover ;
+}
+
+/* section 2 */
+
+.section2 {
+  width: 65%;
+  background-color: #ebc0aa;
+  margin: auto;
+  margin-top: 160px;
+  position: relative;
+  height: 300px;
+}
+
+iframe {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 70%;
+  height: 230px;
+}
+
+h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  color: #402101;
+  text-align: center;
+  animation: animated 5s linear infinite;
+}
+
+
+
+
+.call_us_and_number{
+  margin-top: 20px;
+
+
+}
+.section2_p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #b53b1b;
+}
+
+.section2_contacts {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color:#623932;
+
+}
+
+.email_us{
+  margin-top: 32px;
+  margin-bottom: 32px;
+
+}
+
+
+/* footer */
+
+footer {
+  margin-top: 160px;
+  width: 100%;
+  padding: 32px 250px 57px 250px;
+  background-color: #402101;
+}
+
+.div_help_contacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first_li {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  margin-bottom: 16px;
+}
+
+.li_help_centre {
+  margin-bottom: 8px;
+}
+
+.last_lis {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+
+.linked_classes {
+  color: white;
+}
+
+.footer_icons_div {
+  display: flex;
+  gap: 27px;
+  margin-top: 43px;
+}
+.second_ul {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  color: white;
+   /* border: 3px solid black;  */
+ }
+
+.facebook_icon {
+  background-color: white;
+  color: #1877f2;
+  border-radius: 50%;
+}
+
+.contacts_div {
+ 
+
+}
+
+.icons_and_contacts {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.phone_phone_location_icons {
+  color: white;
+  font-size: 16px;
+}
+
+.p_contacts {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: white;
+}
+
+.middle_contact_envelope {
+  margin-top: 29px;
+  margin-bottom: 33px;
+}
